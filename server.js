@@ -54,3 +54,8 @@ app.listen(PORT, () => {
   console.log('  Email   : admin@hostel.edu');
   console.log('  Password: admin123\n');
 });
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log("Server running");
+});
